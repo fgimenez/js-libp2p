@@ -1,4 +1,4 @@
-import { createLibp2p } from 'libp2p'
+import { createLibp2p } from '../../dist/src/index.js'
 import { WebSockets } from '@libp2p/websockets'
 import { Noise } from '@chainsafe/libp2p-noise'
 import { Mplex } from '@libp2p/mplex'
